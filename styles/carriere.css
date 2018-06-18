@@ -1,0 +1,48 @@
+#paris-50 {
+    background-image: url('../images/paris-50.jpg');
+    background-position: center 30%;
+
+}
+
+#goscinny-friends {
+	background-image: url('../images/la_famille.png');
+    background-position: center 5%;
+}
+
+#dedicace {
+    background-image: url('../images/dedicace.jpg');
+    background-size: 100% 100%;
+}
+
+#asterix {
+    background-image: url('../images/couv-asterix.jpg');
+    background-size: 70% 90%;
+    background-color: #dfca9b;
+}
+
+#lucky-luke {
+    background-image: url('../images/couv-lucky-luke.jpg');
+    background-size: 70% 90%;
+    background-color: #e59b87;
+}
+
+#petit-nicolas {
+    background-image: url('../images/couv-nicolas.jpg');
+    background-size: 70% 90%;
+    background-color: #faf9fa;
+}
+
+#pilote {
+    background-image: url('../images/pilote.jpg');
+    background-size: 70% 95%;
+    background-color: #d9c5b8;
+}
+
+#pilote1 {
+    background-image: url('../images/pilote1.JPG');
+    
+}
+
+#pilote2 {
+    background-image: url('../images/pilote2.jpg')
+}

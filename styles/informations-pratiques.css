@@ -1,0 +1,12 @@
+#musee {
+    background-image: url('../images/musee.jpg');
+    background-position: center 30%;
+}
+
+#musee1 {
+    background-image: url('../images/musee1.jpg');
+}
+
+#jeu-case {
+    background-image: url('../images/jeu-case.jpg');
+}

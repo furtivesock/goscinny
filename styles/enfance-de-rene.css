@@ -1,0 +1,31 @@
+#musee {
+    background-image: url('../images/france-map.png');
+    background-position: center 30%;
+    background-attachment:fixed;
+}
+
+#musee1 {
+    background-image: url('../images/musee1.jpg');
+}
+
+#jeu-case {
+    background-image: url('../images/enfant.jpg');
+}
+
+#rene {
+    background-image: url('../images/rene.jpg');
+}
+
+#promo {
+    background-image: url('../images/promo.jpg');
+}
+
+#nazi {
+    background-image: url('../images/nazi.jpg');
+}
+
+@media (max-width: 768px) {
+    .texte {
+        padding-top: 10%;
+    }
+}

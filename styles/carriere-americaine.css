@@ -1,0 +1,26 @@
+#card {
+    background-image: url('../images/card.jpg');
+}
+
+#train {
+    background-image: url('../images/train.jpg');
+}
+
+#fille {
+    background-image: url('../images/fille.png');
+}
+
+#cv {
+    background-image: url('../images/cv.png');
+    background-position: center 60%;
+}
+
+#usa {
+    background-image: url('../images/usa.jpg');
+}
+
+@media (max-width: 768px) {
+    .texte {
+        padding-top: 10%;
+    }
+}

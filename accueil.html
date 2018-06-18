@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Goscinny</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+        <script src="js/retour-haut.js"></script>
+        <style>
+            #rene {
+                background-image: url('images/rene.png');
+            }
+
+            #cinema {
+                background-image: url('images/cinema.jpg');
+                background-position: center 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+        <!-- Barre de navigation -->
+        <nav class="navbar">
+            <div class="navbar-header">
+                <button aria-controls="navbar" aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span></button> <a class="navbar-brand" href="accueil.html">Goscinny</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="accueil.html">
+                            <img src="icono/bulle_accueil.png" style="z-index:10;">
+                            <div class="nom-menu">
+                                Accueil
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="informations-pratiques.html">
+                            <img src="icono/bulle_top5.png" style="margin-left: -12px; transform: scale(1.2) translateY(-20%);">
+                            <div class="nom-menu">
+                                Informations pratiques : Top 5
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <img src="icono/bulle_qui.png" style="margin-left: -20px;z-index:10; margin-top: 7px;">
+                            <div class="nom-menu">
+                                Qui est René Goscinny ? <span class="caret"></span>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="enfance-de-rene.html">Son enfance</a></li>
+                            <li><a href="carriere-americaine.html">Sa carrière américaine</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <img src="icono/bulle_figure.png" style="margin-left: -8px;">
+                            <div class="nom-menu">
+                                Une figure française <span class="caret"></span>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="carriere-debut.html">Début de popularité</a></li>
+                            <li><a href="carriere-milieu.html">Trois grands succès</a></li>
+                            <li><a href="carriere-fin.html">Son entreprise</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="avis.html">
+                            <img src="icono/bulle_avis.png">
+                            <div class="nom-menu">
+                                Notre avis
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Barre de navigation -->
+        <!-- Début Contenu -->
+        <!-- En-tête -->
+        <header id="accueil"></header><!-- /En-tête -->
+        <!-- Titre partie -->
+        <div class="jumbotron text-center">
+            <div class="titre-bande">
+                Bienvenue sur le site consacré à l'exposition René Goscinny !
+            </div>
+        </div>
+        <!-- /Titre partie -->
+        <div class="container">
+            <div class="row">
+
+                <section>
+                    <div class="col-sm-6">
+                        <article class="couleur">
+                            <div class="presentation contenu">
+                                Mais quel est ce site, nous demanderiez-vous ? Peu importe comment vous avez atteri ici, même si cela implique quelque potion magique par là, nous vous souhaitons la bienvenue. Connaissez-vous René Goscinny ? Vous avez sûrement entendu quelque part les noms <i>Lucky Luke</i>, <i>Astérix et Obélix</i>, ou encore le livre <i>Le Petit Nicolas</i> ! Ici, nous sommes là pour vous raconter l'histoire -non-fictive- du scénariste derrière ces oeuvres et l'exposition <i>René Goscinny : Au-delà du rire</i>.
+                                <br>
+                                Si vraiment vous en avez l'occasion, allez la visiter au Musée d'Art du Judaïsme, c'est jusqu'au <b>4 mars 2018</b> ! Ne tardez pas. Si vous doutez encore, on vous propose de découvrir 
+                                <a href="informations-pratiques.html">notre top 5 des raisons pour y aller</a>. 
+                                On vous promet des informations inédites dont vous n'aurez pas eu l'idée au départ. 
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-3">
+                        <article class="image" id="rene">
+                            <div class="encadre">
+                                Le boss du comique français
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-sm-3">
+                        <article class="image" id="cinema">
+                            <div class="encadre">Une autre exposition vous attend à la Cinémathèque : <b>Goscinny et le cinéma</b> ! Des séances de films sont organisés, c'est l'occasion de voir des oeuvres cinématographiques sur grand écran !
+                                <br>
+                                <a style="border-bottom: 2px solid orange;font-weight: bold; font-style: italic; color: orange;" href="http://www.cinematheque.fr/cycle/goscinny-et-le-cinema-402.html">Renseignez-vous sur cette exposition...</a>
+                            </div>
+
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- Fin Contenu -->
+        <!-- Début footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="idefix"></div>
+                        <div class="titre-pied">Plan du site
+                            <a href="#" id="haut">
+                                Haut de page
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan du site -->
+                <div class="plan">
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="informations-pratiques.html" class="titre-menu">Informations pratiques : top 5</a>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="enfance-de-rene.html" class="titre-menu">Qui est René Goscinny ?</a>
+                        <ul>
+                            <li><a href="enfance-de-rene.html">Son enfance</a></li>
+                            <li><a href="carriere-americaine.html">Un début de carrière américaine</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="carriere-debut.html" class="titre-menu">Une figure française</a>
+                        <ul>
+                            <li><a href="carriere-debut.html">Début de la popularité</a></li>
+                            <li><a href="carriere-milieu.html">Trois grands succès</a></li>
+                            <li><a href="carriere-fin.html">Son entreprise</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <a href="avis.html" class="titre-menu">Notre avis</a>
+                    </div>
+                <!-- /Plan du site -->
+                <!-- Credits -->
+                <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                        <a href="credits.html" class="titre-menu">Crédits du site</a>
+                    </div>
+                    <div class="col-sm-6 col-md-12 credits">
+                        Fansite sur l'exposition <i>René Goscinny Au-delà du rire</i> au maHJ réalisé dans le cadre du projet EWEB à l'IUT Paris Descartes. ©2017-2018
+                    </div>
+                    </div>
+                </div>
+                <!-- /Credits -->
+            </div>
+        </footer>
+        <!-- Fin footer -->
+        </div>
+    </body>
+</html>

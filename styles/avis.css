@@ -1,0 +1,187 @@
+#avis-fond{
+
+    background-image: url('../images/avis.jpg');
+
+}
+
+#avis-bandeau-raccord{
+
+    background-image: url('../images/avis-bandeau-raccord.jpg');
+    transform:rotate(90deg);
+}
+
+#avis-fond2{
+
+    background-image: url('../images/avis-fond.jpg');
+    transform:rotate(90deg);
+
+}
+
+#jean {
+    background-color: #f7f6a4;
+    background-image: url('../images/jean.jpg');
+    background-position: center 20%;
+}
+
+#xav {
+    background-color: #fff;
+    background-image: url('../images/xav.jpg');
+}
+
+#tom {
+    background-color: #ffb169;
+    background-image: url('../images/tom.jpg');
+}
+
+#nathan {
+    background-color: #ab0c28;
+    background-image: url('../images/nathan.jpg');
+}
+
+#sophie {
+    background-color: #42356b;
+    background-image: url('../images/sophie.jpg');
+    background-position: 30% 30%;
+}
+
+/*Bulle bande dessinée*/
+
+.bubble {
+    position: absolute;
+    padding: 10px;
+    background: #FFFFFF;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: #000 solid 3px;
+    display: flex; /* contexte sur le parent */
+    flex-direction: column; /* direction d'affichage verticale */
+    justify-content: center; /* alignement vertical */
+}
+
+.bubble-top:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 10px 40px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+top: -40px;
+left: 102px;
+}
+
+.bubble-top:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 12px 42px;
+border-color: #000 transparent;
+display: block;
+width: 0;
+z-index: 0;
+top: -45px;
+left: 100px;
+}
+
+
+.bubble-top-left:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 10px 40px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+top: -40px;
+left: 32px;
+}
+
+.bubble-top-left:before {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 12px 42px;
+border-color: #000 transparent;
+display: block;
+width: 0;
+z-index: 0;
+top: -45px;
+left: 30px;
+}
+
+
+.bubble-center:after 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 10px 40px;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+margin-left: -10px;
+top: -40px;
+left: 50%;
+}
+
+.bubble-center:before 
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 0 12px 42px;
+border-color: #000 transparent;
+display: block;
+width: 0;
+z-index: 0;
+margin-left: -12px;
+top: -45px;
+left: 50%;
+}
+
+.bubble-texte {
+    font-family: "Komika Axis";
+    font-size: 15px;
+    color: #000;
+}
+
+/*Positionnement et taille bulle*/
+
+.jean {
+    top: 15px;
+    left: 30%;
+    width: 145px;
+    height: 80px;
+}
+
+.xav {
+    width: 145px;
+    height: 80px;
+    right: 30px;
+    top: 30%;
+}
+
+.tom {
+    bottom: 20%;
+    width: 160px;
+    height: 90px;
+}
+
+.nathan {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+
+.sophie {
+    width: 170px;
+    height: 120px;
+    bottom: 20%;
+    left: 35%;
+}
