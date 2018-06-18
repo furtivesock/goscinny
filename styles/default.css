@@ -60,12 +60,12 @@ a:hover, a:focus {
 
 @font-face {
     font-family: "Obelix Pro";
-    src: url('../Polices/ObelixProB-cyr.ttf');
+    src: url('../polices/ObelixProB-cyr.ttf');
 }
 
 @font-face {
     font-family: "Komika Axis";
-    src: url('../Polices/KOMIKAX_.ttf');
+    src: url('../polices/KOMIKAX_.ttf');
 }
 
 /* DEBUT BARRE DE NAVIGATION */
